@@ -38,11 +38,9 @@ build() {
 package() {
     install -d "${pkgdir}"/opt
     install -D -m655 "./${pkgname}" "${pkgdir}/usr/bin/${pkgname}"
-    install -D -m644 "${srcdir}/src/${pkgname}.png" "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
     install -D -m644 "${srcdir}/src/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
     
     rm -rf "${srcdir}/src/LICENSE"
-    rm -rf "${srcdir}/src/${pkgname}.png"
 
     cp -R ${srcdir}/src/ "${pkgdir}/opt/leanote"
 }
