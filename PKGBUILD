@@ -14,7 +14,7 @@ conflicts=("${pkgname}")
 #install=$pkgname.install
 
 source=("leanote")
-sha256sums=('8dab30fe0835432e44b5a3a1d46aebde8716a2a47ba4031cbe2a01560987aa83')
+sha256sums=('57155a0e423bc98f0e83acb35f03ace06b3de54bdc64b2373128671c801727b1')
 
 source_x86_64=("${pkgname}-${pkgver}.tar.gz::https://sourceforge.net/projects/leanote-bin/files/${pkgver}/leanote-linux-amd64-v${pkgver}.bin.tar.gz/download")
 source_i686=("${pkgname}-${pkgver}.tar.gz::https://sourceforge.net/projects/leanote-bin/files/${pkgver}/leanote-linux-386-v${pkgver}.bin.tar.gz/download")
